@@ -16,4 +16,4 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
-[Download App](https://bughunter-99.github.io/GhostNews/docs/)
+[Download App](https://bughunter-99.github.io/GhostNews/docs/) from here.
