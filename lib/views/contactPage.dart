@@ -65,7 +65,7 @@ class ContactPage extends StatelessWidget {
                     subtitle:
                         Text("GhostNews is open-source,check it out on GitHub"),
                     onTap: () {
-                      launch("https://www.google.com/");
+                      launch("https://github.com/bughunter-99/GhostNews");
                     },
                   ),
                   ListTile(
@@ -75,7 +75,8 @@ class ContactPage extends StatelessWidget {
                     ),
                     subtitle: Text("Report a bug or request for new features"),
                     onTap: () {
-                      launch("https://www.google.com/");
+                      launch(
+                          "https://github.com/bughunter-99/GhostNews/issues");
                     },
                   )
                 ],
@@ -145,6 +146,7 @@ class ContactPage extends StatelessWidget {
                   launch("https://www.instagram.com/_ghost_wheel_");
                 },
               ),
+              HorizontalLine(),
               ListTile(
                 title: Text(
                   "View Licences",
