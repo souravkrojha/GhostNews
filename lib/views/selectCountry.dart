@@ -52,27 +52,28 @@ class _SelectCountryState extends State<SelectCountry> {
             )
           ]),
       body: SingleChildScrollView(
+        physics: ScrollPhysics(),
         child: Column(
+          // mainAxisAlignment: MainAxisAlignment.center,
+          // mainAxisSize: MainAxisSize.max,
           children: <Widget>[
-            Container(
-              // padding: EdgeInsets.symmetric(horizontal: 16),,
-              height: 600,
-              child: ListView.builder(
-                  shrinkWrap: true,
-                  itemCount: country.length,
-                  itemBuilder: (context, index) {
-                    return GestureDetector(
-                      child: CountryRow(
-                        countryName: country[index].countryName,
-                        countryLogo: country[index].countryLogo,
-                        countryCode: country[index].countryCode,
-                      ),
-                      onTap: () {
-                        Navigator.pop(context, country[index].countryCode);
-                      },
-                    );
-                  }),
-            ),
+            ListView.builder(
+                physics: NeverScrollableScrollPhysics(),
+                scrollDirection: Axis.vertical,
+                shrinkWrap: true,
+                itemCount: country.length,
+                itemBuilder: (context, index) {
+                  return GestureDetector(
+                    child: CountryRow(
+                      countryName: country[index].countryName,
+                      countryLogo: country[index].countryLogo,
+                      countryCode: country[index].countryCode,
+                    ),
+                    onTap: () {
+                      Navigator.pop(context, country[index].countryCode);
+                    },
+                  );
+                }),
           ],
         ),
       ),

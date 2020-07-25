@@ -38,9 +38,6 @@ class ContactPage extends StatelessWidget {
                   style: TextStyle(fontSize: 18),
                 ),
                 subtitle: Text("A news app for top headlines across the globe"),
-                onTap: () {
-                  launch("https://www.google.com/");
-                },
               ),
               HorizontalLine(),
               Padding(

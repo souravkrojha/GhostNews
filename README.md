@@ -1,19 +1,22 @@
-# newsApp
+# GhostNews
 
-A new Flutter project.
+A simple news application for android built with flutter and NewsAPI.org
 
-## Getting Started
+## Key Features
 
-This project is a starting point for a Flutter application.
+Followings are the key features of the application
 
-A few resources to get you started if this is your first Flutter project:
+-You can see through a different categories of news such as Tech,Science,Health and more.
+-you can select from a number of Countries.
+-you can also see different categories of your selected Country.
+-Ghost news is open-source so anyone can contribute to the project
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Contact me
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Instagram](https://www.instagram.com/_ghost_wheel_)
+- [Linkedin](https://www.linkedin.com/in/sourav-ojha-82ba81195/)
+
+# Download
+-You can download the Ghost news app from [here.](https://bughunter-99.github.io/GhostNews/docs/)
 
 
-[Download App](https://bughunter-99.github.io/GhostNews/docs/).
